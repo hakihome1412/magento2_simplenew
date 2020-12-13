@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Huy_SimpleNew::simplenew_menu" title="Huy SimpleNew" module="Huy_SimpleNew" sortOrder="20" resource="Huy_SimpleNew::simplenew" />
+        <add id="Huy_SimpleNew::news_menu" title="Manage News" module="Huy_SimpleNew" sortOrder="1" parent="Huy_SimpleNew::simplenew_menu" action="simplenew/news/index" resource="Huy_SimpleNew::news" />
+    </menu>
+</config>

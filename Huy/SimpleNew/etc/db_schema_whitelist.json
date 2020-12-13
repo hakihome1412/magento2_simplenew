@@ -1,0 +1,15 @@
+{
+    "huy_simplenew": {
+        "column": {
+            "id": true,
+            "title": true,
+            "description": true,
+            "status": true,
+            "image": true,
+            "created_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
